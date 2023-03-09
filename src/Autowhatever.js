@@ -52,6 +52,7 @@ export default class Autowhatever extends Component {
       PropTypes.object,
       PropTypes.array,
     ]),
+    listId: PropTypes.string,
   };
 
   static defaultProps = {
@@ -75,6 +76,7 @@ export default class Autowhatever extends Component {
     highlightedSectionIndex: null,
     highlightedItemIndex: null,
     theme: defaultTheme,
+    listId: 'item-list-container',
   };
 
   constructor(props) {

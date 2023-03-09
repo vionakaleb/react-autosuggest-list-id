@@ -6,7 +6,7 @@
 [![npm Version](https://img.shields.io/npm/v/react-autosuggest.svg?style=flat-square)](https://npmjs.org/package/react-autosuggest)
 ![gzip size](http://img.badgesize.io/https://unpkg.com/react-autosuggest/dist/standalone/autosuggest.min.js?compression=gzip&style=flat-square)
 
-# React Autosuggest
+# React Autosuggest with List ID
 
 ## Project Status
 
@@ -36,13 +36,13 @@ Check out the [Homepage](http://react-autosuggest.js.org) and the [Codepen examp
 ## Installation
 
 ```shell
-yarn add react-autosuggest
+yarn add react-autosuggest-list-id
 ```
 
 or
 
 ```shell
-npm install react-autosuggest --save
+npm install react-autosuggest-list-id --save
 ```
 
 You can also use the standalone UMD build:

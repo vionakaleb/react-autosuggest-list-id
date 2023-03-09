@@ -96,6 +96,7 @@ export default class Autosuggest extends Component {
     theme: PropTypes.object,
     id: PropTypes.string,
     containerProps: PropTypes.object, // Arbitrary container props
+    listId: PropTypes.string,
   };
 
   static defaultProps = {
@@ -109,6 +110,7 @@ export default class Autosuggest extends Component {
     theme: defaultTheme,
     id: '1',
     containerProps: {},
+    listId: "item-list-container",
   };
 
   constructor({ alwaysRenderSuggestions }) {
@@ -561,6 +563,7 @@ export default class Autosuggest extends Component {
       alwaysRenderSuggestions,
       highlightFirstSuggestion,
       containerProps,
+      listId,
     } = this.props;
     const {
       isFocused,
@@ -814,6 +817,7 @@ export default class Autosuggest extends Component {
         itemProps={this.itemProps}
         theme={mapToAutowhateverTheme(theme)}
         id={id}
+        listId={listId}
         ref={this.storeAutowhateverRef}
       />
     );

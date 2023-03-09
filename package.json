@@ -1,13 +1,13 @@
 {
-  "name": "react-autosuggest",
-  "version": "10.1.0",
-  "description": "WAI-ARIA compliant React autosuggest component",
+  "name": "react-autosuggest-list-id",
+  "version": "1.0.0",
+  "description": "Moroshko's WAI-ARIA compliant React autosuggest component with list id",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moroshko/react-autosuggest.git"
+    "url": "https://github.com/vionakaleb/react-autosuggest-list-id.git"
   },
-  "author": "Misha Moroshko <michael.moroshko@gmail.com>",
+  "author": "Misha Moroshko <michael.moroshko@gmail.com> & Viona Kaleb <vionakaleb@gmail.com>",
   "scripts": {
     "start": "mkdir -p demo/dist && npm run copy-static-files && node server",
     "prettier": "prettier --single-quote --write",
@@ -111,6 +111,7 @@
     "react auto suggest",
     "react auto complete",
     "react-autosuggest",
+    "react-autosuggest-list-id",
     "react-autocomplete",
     "react-auto-suggest",
     "react-auto-complete",

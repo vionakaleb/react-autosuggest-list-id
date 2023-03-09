@@ -52,7 +52,7 @@ export default class ItemsList extends Component {
     const isItemPropsFunction = typeof itemProps === 'function';
 
     return (
-      <ul id={listId} role="listbox" {...theme(`${sectionPrefix}items-list`, 'itemsList')}>
+      <ul id={listId || 'item-list-container'} role="listbox" {...theme(`${sectionPrefix}items-list`, 'itemsList')}>
         {items.map((item, itemIndex) => {
           const isFirst = itemIndex === 0;
           const isHighlighted = itemIndex === highlightedItemIndex;

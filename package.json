@@ -1,6 +1,6 @@
 {
   "name": "react-autosuggest-list-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Moroshko's WAI-ARIA compliant React autosuggest component with list id",
   "main": "dist/index.js",
   "repository": {
